@@ -1,0 +1,83 @@
+body {
+  /* background-color: white; */
+  background-image: url("plane.jpg");
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 20px;
+}
+.container {
+  color: black;
+  font-size: 200px;
+}
+.navbar {
+  margin: 20px;
+  border: 0px;
+  padding: 0px;
+}
+.navbar a {
+  margin: 0px;
+  border: 0px;
+  padding: 15px;
+}
+
+h2 {
+  color: rgb(17, 0, 255);
+}
+
+.Exp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Cert {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Pro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* .box1 {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  width: auto;
+  height: auto;
+
+  display: inline-block;
+float: right;
+} */
+
+.image {
+  background-image: url("shaking hand2.gif");
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  width: 200px;
+  height: 200px;
+  font-size: 1px;
+  border-radius: 50%;
+}
+.useless {
+  font-size: 1px;
+  width: 400px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  /* flex-grow: 1; */
+  /* border: solid 1px white; */
+}
+
+/* .box4 {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  width: auto;
+  height: auto;
+  background-image: url("shaking hand.gif");
+  background-repeat: repeat;
+} */
