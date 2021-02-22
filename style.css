@@ -1,58 +1,103 @@
 body {
   /* background-color: white; */
-  background-image: url("plane.jpg");
+  /* background-image: url("plane.jpg"); */
 
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-size: 20px;
-}
-.container {
-  color: black;
-  font-size: 200px;
-}
-.navbar {
-  margin: 20px;
-  border: 0px;
-  padding: 0px;
-}
-.navbar a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(51, 49, 131);
+  font-size: 18px;
   margin: 0px;
-  border: 0px;
-  padding: 15px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+#H {
+  background-color: rgb(179, 224, 245);
+}
+.head {
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+}
+
+.head .navbar {
+  height: auto;
+  background-color: rgb(135, 210, 245);
+  padding: 10px 0;
+}
+.head .navbar ul li {
+  padding: 10px;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.05);
+  border-top: 1px solid rgb(225, 225, 225, 0.05);
+}
+.head .navbar ul li a {
+  display: block;
+}
+.head .navbar ul li a .fas {
+  width: 20px;
+}
+.head .navbar ul li:hover {
+  background: rgb(72, 167, 211);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  color: rgb(41, 39, 170);
+  font-size: 120px;
+}
+
+p1 {
+  /* margin: 10px; */2  q
+  color: rgba(94, 86, 209, 0.993);
 }
 
 h2 {
   color: rgb(17, 0, 255);
 }
 
-.Exp {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+#ABOUT,
+#E,
+#S,
+#Ed, 
+#P,
+#C {
+  margin: 20px;
 }
 
-.Cert {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
+.Exp,
+.Cert,
 .Pro {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-/* .box1 {
-  margin: 0px;
+.space {
+  font-size: 1px;
+  margin: 50px;
   border: 0px;
   padding: 0px;
   width: auto;
   height: auto;
-
-  display: inline-block;
-float: right;
-} */
+}
 
 .image {
   background-image: url("shaking hand2.gif");
+  background-repeat: no-repeat;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  width: 180px;
+  height: 180px;
+  font-size: 1px;
+  border-radius: 50%;
+}
+.useless {
+  font-size: 1px;
+  width: 340px;
+}
+.ProfilePic {
+  background-image: url("Profile2.png");
   margin: 0px;
   border: 0px;
   padding: 0px;
@@ -61,23 +106,15 @@ float: right;
   font-size: 1px;
   border-radius: 50%;
 }
-.useless {
-  font-size: 1px;
-  width: 400px;
-}
-.container {
-  display: flex;
-  flex-direction: row;
-  /* flex-grow: 1; */
-  /* border: solid 1px white; */
+.wholeSection {
+  display: grid;
+  grid-template-columns: auto;
 }
 
-/* .box4 {
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
-  width: auto;
-  height: auto;
-  background-image: url("shaking hand.gif");
-  background-repeat: repeat;
-} */
+#Cont {
+  background-color: rgb(179, 224, 245);
+}
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
