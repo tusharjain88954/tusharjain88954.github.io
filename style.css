@@ -1,7 +1,4 @@
 body {
-  /* background-color: white; */
-  /* background-image: url("plane.jpg"); */
-
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: rgb(51, 49, 131);
@@ -14,107 +11,80 @@ body {
 }
 #H {
   background-color: rgb(179, 224, 245);
-}
-.head {
-  display: grid;
-  grid-template-columns: 2fr 8fr;
+  height: 400px;
 }
 
-.head .navbar {
-  height: auto;
-  background-color: rgb(135, 210, 245);
-  padding: 10px 0;
-}
-.head .navbar ul li {
-  padding: 10px;
-  border-bottom: 1px solid rgb(0, 0, 0, 0.05);
-  border-top: 1px solid rgb(225, 225, 225, 0.05);
-}
-.head .navbar ul li a {
-  display: block;
-}
-.head .navbar ul li a .fas {
-  width: 20px;
-}
-.head .navbar ul li:hover {
-  background: rgb(72, 167, 211);
+/* Changing navbar font color */
+.navbar.navbar-expand-lg.navbar-light.bg-custom .container-fluid a {
+  color: rgb(82, 26, 172);
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-  color: rgb(41, 39, 170);
-  font-size: 120px;
+.Intro {
+  padding: 50px;
+  font-size: 50px;
+}
+p2 {
+  font-size: 20px;
+  color: green;
+  display: inline-block;
+  margin: 0 0.5rem;
+  text-align: center;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+h1 {
+  color: rgb(82, 26, 172);
+  font-size: 60px;
 }
 
-p1 {
-  /* margin: 10px; */2  q
-  color: rgba(94, 86, 209, 0.993);
+h6 {
+  color: rgb(94, 86, 209, 0.993);
 }
 
 h2 {
+  color: rgb(17, 0, 255);
+}
+p1 {
+  color: rgb(94, 86, 209, 0.993);
+}
+h3 {
   color: rgb(17, 0, 255);
 }
 
 #ABOUT,
 #E,
 #S,
-#Ed, 
-#P,
-#C {
-  margin: 20px;
+#Ed,
+#P {
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
-.Exp,
-.Cert,
-.Pro {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.progress {
+  margin-top: 20px;
 }
-
-.space {
-  font-size: 1px;
-  margin: 50px;
-  border: 0px;
-  padding: 0px;
-  width: auto;
-  height: auto;
+.zoom {
+  transition: transform 0.2s;
+}
+.zoom:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
 }
 
 .image {
-  background-image: url("shaking hand2.gif");
-  background-repeat: no-repeat;
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
-  width: 180px;
-  height: 180px;
-  font-size: 1px;
   border-radius: 50%;
 }
-.useless {
-  font-size: 1px;
-  width: 340px;
-}
-.ProfilePic {
-  background-image: url("Profile2.png");
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
-  width: 200px;
-  height: 200px;
-  font-size: 1px;
+
+img {
   border-radius: 50%;
-}
-.wholeSection {
-  display: grid;
-  grid-template-columns: auto;
 }
 
 #Cont {
   background-color: rgb(179, 224, 245);
 }
-.contact {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+
+.SocialMedia {
+  padding-left: 8px;
 }
